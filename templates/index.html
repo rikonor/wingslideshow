@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src='/scripts/script.js'></script>
+    <title>Flying the LW - A gallery by rikonor</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <h4><strong>Flying the LW</strong> - A gallery by <a href="mailto:rikonor@gmail.com">rikonor</a></h4>
+    </div>
+    <div class="main-img-container">
+      <img src="images/{{ images[0] }}" id="main-img" />
+    </div>
+    <div id="gallery">
+      <ul>
+        {% for image in images %}
+        <li><img src="images/{{ image }}" /></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+
+</html>

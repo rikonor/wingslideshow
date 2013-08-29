@@ -1,0 +1,31 @@
+body {
+	background-color: #DDDDDD;
+	font-family: Courier;
+}
+
+#header {
+	text-align: center;
+}
+
+img {
+	width: 125px;
+	height: 70px;
+}
+
+#main-img {
+	width: 500px;
+	height: 280px;
+	padding: 5px;
+}
+
+.main-img-container {
+	width: 510px;
+	height: 290px;
+	margin: auto;
+	border: 2px dashed #DDAAAA;
+}
+
+#gallery li {
+	display: inline;
+	margin-right: 3px;
+}
